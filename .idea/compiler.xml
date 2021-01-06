@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java_data_structure" />
+        <module name="structure" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java_data_structure" target="1.8" />
+      <module name="structure" target="1.8" />
+      <module name="structure (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="java_data_structure" options="-parameters" />
+      <module name="structure" options="-parameters" />
+      <module name="structure (1)" options="-parameters" />
     </option>
   </component>
 </project>
